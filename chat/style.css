@@ -1,0 +1,49 @@
+@import url('http://fonts.cdnfonts.com/css/bahnschrift');
+
+*{
+    font-family: 'Bahnschrift', sans-serif;
+}
+
+.bg-dark-gray{
+    background-color: #272730;
+}
+
+.bg-gray {
+    background-color: #32313E;
+}
+.text-ocean{
+    color: #3FA9F5;
+}
+
+.btn-purple {
+    color: #5F4D96;
+    border: 1px solid #5F4D96;
+}
+
+.panel {
+    width: 380px;
+    height: 470px;
+}
+
+.input{
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: #272730;
+    color: #fff;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.input:focus{
+    background-color: #32313E;
+    color: #fff;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.round {
+    position : relative;
+    width: 10px;
+    height: 10px;
+    border: 1px solid green;
+    border-radius: 50%;
+    background: green;
+  }
